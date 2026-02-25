@@ -1,0 +1,60 @@
+local Interaction = exports['mani-interaction']
+
+CreateThread(function()
+    -- Interaction:AddGlobalPlayer({
+    --     name = 'DeadPlayerInteraction',
+    --     radius = 2.5,
+    --     canInteract = function(Data)
+    --         local State = Player(Data.Source).state
+    --         return State.IsDead
+    --     end,
+    --     options = {
+    --         {
+    --             label = 'CPR',
+    --             icon = 'fa-solid fa-heart-pulse',
+    --             action = function(Data)
+    --                 print('Jeg kan ik finde ud af førstehjælp...')
+    --             end
+    --         },
+    --         {
+    --             label = 'Loot',
+    --             icon = 'fa-solid fa-box',
+    --             action = function(Data)
+    --                 print('Jeg kan ik finde ud af loote...')
+    --             end
+    --         },
+    --         {
+    --             label = 'Carry',
+    --             icon = 'fa-solid fa-person',
+    --             action = function(Data)
+    --                 print('Jeg kan ik finde ud af carry...')
+    --             end
+    --         }
+    --     }
+    -- })
+
+    -- Interaction:AddPoint({
+    --     name = 'TestPoint',
+    --     coords = vec4(456.98, -223.61, 55.97, 247.02),
+    --     radius = 2.5,
+    --     canInteract = function(Data)
+    --         return true
+    --     end,
+    --     options = {
+    --         {
+    --             label = 'Test',
+    --             icon = 'fa-solid fa-circle-info',
+    --             action = function(Data)
+    --                 print('Denne funktion gør ik en skid')
+    --             end
+    --         },
+    --         {
+    --             label = 'Test',
+    --             icon = 'fa-solid fa-circle-info',
+    --             action = function(Data)
+    --                 print('Denne funktion gør ik en skid')
+    --             end
+    --         }
+    --     }
+    -- })
+end)
